@@ -47,7 +47,7 @@
         fetch(url)
             .then((res) => res.json())
             .then((data) => {
-                $dailyDeviations = data.results;
+                $dailyDeviations = data.results.filter((d) => d.thumbs[0] && d.content?.src);
             })
             .catch((error) => {
                 alert(error);
