@@ -5,7 +5,7 @@ Quick hack playing with ShotStack API.
 
 ### Setup
 
-* Get a [Deviant Art](https://www.deviantart.com/developers/) application and API information.
+* Get a [Deviant Art](https://www.deviantart.com/developers/) application and API information. Use the implicit OAuth2 grant type.
 * Get a [ShotStack](https://dashboard.shotstack.io/register) account and API information.
 * Setup `.env` with appropriate keys; see `.env.demo` for format.
 
